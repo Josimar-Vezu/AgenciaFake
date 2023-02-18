@@ -149,5 +149,31 @@ section h2{
     width: 30%;
     padding: 20px;
     margin: 1%;
-    border: 1px solid black;
+    border: 2px solid #2f7efb;
+    border-radius: 20px;
+}
+
+.card:hover{
+    display: inline-block;
+    width: 30%;
+    background-color: #53a769;
+    border: none;
+    color: white;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+    text-align: center;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.texto-oculto{
+    display: none;
 }
