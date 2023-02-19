@@ -106,7 +106,7 @@ body{
 }
 
 .headline p {
-    color: gray;
+    color: rgb(255, 255, 255);
     text-align: left;
 }
 
@@ -120,7 +120,6 @@ body{
 section{
     display: inline-block;
     margin-top: 80px;
-    border: 1px solid black;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
@@ -148,15 +147,19 @@ section h2{
     padding: 20px;
     margin: 1%;
     border: 2px solid #2f7efb;
-    border-radius: 20px;
+    border-radius: 10px;
+    cursor:pointer;
 }
 
 .card:hover{
+    background-color: #53a769;
     display: inline-block;
     width: 30%;
-    background-color: #53a769;
     border: none;
     color: white;
+    padding: 25px;
+    border: 2px solid #2f7efb;
+    border-radius: 10px;
 }
 
 .card:hover .card-text{
@@ -165,7 +168,7 @@ section h2{
 
 .card:hover .texto-oculto{
     display: block;
-    text-align: center;
+    font-size: 25px;
 }
 
 .card:hover img{
@@ -174,4 +177,17 @@ section h2{
 
 .texto-oculto{
     display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg,#2f7efb,#0d3472,black);
+    text-align: center;
+    border-top: 3px solid #53a769;
+}
+
+.logo-rodape{
+    padding: 100px;
+    border: 1px solid white;
 }
