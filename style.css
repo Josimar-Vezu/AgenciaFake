@@ -189,5 +189,10 @@ footer{
 
 .logo-rodape{
     padding: 100px;
-    border: 1px solid white;
+}
+
+.agencia{
+    font-family: 'Lobster', cursive;
+        color: #ffffff;
+        font-size: 34px;
 }
